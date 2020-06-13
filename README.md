@@ -3,6 +3,6 @@ In this project, we read a zipped folder which contains some image files. We sea
 
 ## Steps involved:  
 
-Step 1: Read the zipped folde and open all the image files in that folder one by one  
+Step 1: Read the zipped folder and open all the image files in that folder one by one  
 Step 2: Read all the text present in the image files and search for a given text like Christopher in this case  
 Step 3: If the text is found, detect all the faces in that image file, crop them and paste it on a canvas for display  
