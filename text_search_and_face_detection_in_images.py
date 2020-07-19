@@ -37,6 +37,7 @@ print(files)
 for item in files:
     print("File_name: ", item)
     pil_img=PIL.Image.open('readonly/sample1/'+item)
+    # convert the image file to RGB mode
     pil_img = pil_img.convert("RGB")
     #print(pil_img.mode)
     #display(pil_img)
