@@ -1,13 +1,13 @@
-#Face detection and text search in images
+# Face detection and text search in images
 
 This is a face detection project in Python3 wherein we perform a text search on an image file and if the text is present in the image, we detect all the faces in that image, crop them and paste on a canvas for display.
 
 
-##Input
+## Input
 The input is provided in the form of a zipper folder that contains the image files
 
 
-##Algorithm:
+## Algorithm:
 
 Step 1: Import libraries zipfile.ZipFile, PIL, PIL.image, PIL.ImageDraw, pytesseract, cv2, numpy 	and os
 Step 2:  Load the face detection classifier “haarcascade_frontalface_default.xml”  from cv
